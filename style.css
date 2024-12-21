@@ -124,3 +124,34 @@ body, html {
         width: 50%;
     }
 }
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 2em;
+}
+
+.time {
+    background-color: rgba(70, 130, 180, 0.7);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.separator {
+    font-size: 1.5em;
+    color: #4682B4;
+    margin: 0 5px;
+    align-self: center;
+}
+
+@media (max-width: 600px) {
+    .countdown {
+        font-size: 1.5em;
+    }
+
+    .time {
+        padding: 5px 10px;
+    }
+}
